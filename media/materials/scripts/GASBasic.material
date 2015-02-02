@@ -1,0 +1,236 @@
+material Examples/transparent/pink
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture pink50.png
+			}
+		}
+	}
+}
+
+material Examples/transparent/blue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture blue50.png
+			}
+		}
+	}
+}
+
+material Examples/transparent/yellow
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture yellow.png
+			}
+		}
+	}
+}
+
+material Examples/transparent/pink80
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture tusk.png
+			}
+		}
+	}
+}
+
+material Examples/transparent/pink100
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pink100.png
+			}
+		}
+	}
+}
+
+material Examples/Star1
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture star1.png
+			}
+		}
+	}
+}
+
+material Examples/Solid/Red
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture red.jpg
+			}
+		}
+	}
+}
+
+material Examples/Solid/Yellow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture yellow.jpg
+			}
+		}
+	}
+}
+
+material Examples/Solid/Pink
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture pink100.png
+			}
+		}
+	}
+}
+
+material Examples/Solid/Green
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture green.jpg
+			}
+		}
+	}
+}
+
+material Examples/Solid/Purple
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture purple.jpg
+			}
+		}
+	}
+}
+
+material Examples/Solid/Blue
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture blue.jpg
+			}
+		}
+	}
+}
+
+material Examples/Solid/Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture black.jpg
+			}
+		}
+	}
+}
+
+material Examples/Solid/White
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+
+			texture_unit
+			{
+				texture white.jpg
+			}
+		}
+	}
+}

@@ -1,0 +1,145 @@
+material GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+            texture_unit
+            {
+                tex_address_mode clamp
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+
+material GATrays/EmptyFrame : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture empty.png
+            }
+        }
+    }
+}
+
+material GATrays/Frame : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture ga_frame.png
+            }
+        }
+    }
+}
+
+material GATrays/Exit1 : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture exit1.png
+            }
+        }
+    }
+}
+
+material GATrays/Exit2 : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture exit2.png
+            }
+        }
+    }
+}
+
+material GATrays/Help1 : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture help1.png
+            }
+        }
+    }
+}
+
+material GATrays/Help2 : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture help2.png
+            }
+        }
+    }
+}
+
+material GATrays/jiaodalogo1 : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture jiaodalogo1.png
+            }
+        }
+    }
+}
+
+material GATrays/jiaodalogo2 : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture jiaodalogo2.png
+            }
+        }
+    }
+}
+
+material GATrays/Logo : GATrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture GrandiaEngine.png
+            }
+        }
+    }
+}

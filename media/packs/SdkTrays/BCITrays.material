@@ -1,0 +1,283 @@
+material BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+            texture_unit
+            {
+                tex_address_mode clamp
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+material BCITrays/BackGround1
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+		    texture_unit
+			{
+                	    tex_address_mode clamp
+			    texture ga.png
+			}
+        }
+    }
+}
+
+material BCITrays/BackGround2
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+		    texture_unit
+			{
+                	    tex_address_mode clamp
+			    texture bci2.png
+			}
+        }
+    }
+}
+
+
+material BCITrays/Frame : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture bci_frame.png
+            }
+        }
+    }
+}
+
+material BCITrays/Frame/Over : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture sdk_frame.png
+            }
+			
+		    texture_unit
+			{
+			    texture sdk_bands.png
+			    colour_op_ex modulate_x2 src_current src_texture
+				scroll_anim 0 0.5
+			}
+        }
+    }
+}
+
+material BCITrays/MiniTray : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture bci_mini_tray.png
+            }
+        }
+    }
+}
+material BCITrays/MiniTextBox : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture bci_mini_text_box.png
+            }
+        }
+    }
+}
+
+material BCITrays/MiniTextBox/Over : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture sdk_mini_text_box_over.png
+            }
+			
+		    texture_unit
+			{
+			    texture sdk_pulse.png
+			    colour_op add
+				scroll_anim 1 0
+				scale 100 1
+			}
+        }
+    }
+}
+
+material BCITrays/MiniTextBox/Over2 : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture sdk_mini_text_box.png
+            }
+			
+		    texture_unit
+			{
+			    texture sdk_pulse.png
+			    colour_op add
+				scroll_anim 1 0
+				scale 100 1
+			}
+        }
+    }
+}
+
+material BCITrays/Button/Up : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture bci_button_up.png
+            }
+        }
+    }
+}
+
+material BCITrays/Button/Over : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture bci_button_over.png
+            }
+			
+		    texture_unit
+			{
+			    texture sdk_pulse.png
+			    colour_op add
+				scroll_anim 1 0
+				scale 100 1
+			}
+        }
+    }
+}
+
+material BCITrays/Button/Down : BCITrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture bci_button_down.png
+            }
+        }
+    }
+}
+
+material SdkTrays/Scene1Logo : SdkTrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture scene1.jpg
+            }
+        }
+    }
+}
+
+material SdkTrays/Scene2Logo : SdkTrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture scene2.jpg
+            }
+        }
+    }
+}
+
+material SdkTrays/Scene3Logo : SdkTrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture scene3.jpg
+            }
+        }
+    }
+}
+
+material SdkTrays/Scene4Logo : SdkTrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture scene4.jpg
+            }
+        }
+    }
+}
+
+material SdkTrays/Scene5Logo : SdkTrays/Base
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture scene5.jpg
+            }
+        }
+    }
+}
