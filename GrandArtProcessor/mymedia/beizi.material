@@ -1,0 +1,30 @@
+
+material ArchModel57_066_plates
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+		}
+
+	}
+
+}
+
+
+
+material ArchModel57_066_platesA
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+		}
+
+	}
+
+}
+
+

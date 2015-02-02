@@ -1,0 +1,66 @@
+
+material chuang1-1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 003_布料材质.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material chuang1-3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 布料24.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material chaung1-2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 01_木纹贴图.jpg
+			}
+		}
+
+	}
+
+}
+
+

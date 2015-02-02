@@ -1,0 +1,22 @@
+
+material body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.74902 0.74902 0.74902 1
+			diffuse 0.74902 0.74902 0.74902 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture casual02_f_25.png
+			}
+		}
+
+	}
+
+}
+
+

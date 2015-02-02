@@ -1,0 +1,108 @@
+
+material liangbai
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.796079 0.796079 0.796079 1
+			diffuse 0.796079 0.796079 0.796079 1
+			specular 1.449 1.449 1.449 1 58
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material yinliao1{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture yl1.jpg
+				transform 1 0 0 0 0 1.4 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material yinliao2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture yl2.jpg
+				transform 1 0 0 0 0 1.4 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material yinliao3{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture yl3.jpg
+				transform 1 0 0 0 0 1.4 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material yinliao4{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture yl4.jpg
+				transform 1 0 0 0 0 1.4 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+

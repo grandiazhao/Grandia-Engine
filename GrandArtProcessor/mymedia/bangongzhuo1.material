@@ -1,0 +1,44 @@
+
+material bangongzhuo1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 162.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material bangongzhuo2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 162_2.jpg
+			}
+		}
+
+	}
+
+}
+
+

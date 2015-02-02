@@ -1,0 +1,3 @@
+sceneQueue:3,3,3,4
+limitTime:60
+timeOut:30

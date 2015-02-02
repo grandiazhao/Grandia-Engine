@@ -1,0 +1,187 @@
+
+material Сетка
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.137255 0.137255 0.137255 1
+			diffuse 0.137255 0.137255 0.137255 1
+			specular 0.564706 0.564706 0.564706 1 75
+		}
+
+	}
+
+}
+
+
+
+material Вспышка
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.862745 0.807843 0.498039 1
+			diffuse 0.862745 0.807843 0.498039 1
+			specular 0.164706 0.164706 0.164706 1 97
+		}
+
+	}
+
+}
+
+
+
+material Линза
+{
+	technique
+	{
+		pass
+		{
+			specular 0.156863 0.156863 0.156863 1 100
+			scene_blend one_minus_src_colour dest_colour
+		}
+
+	}
+
+}
+
+
+
+material Пластикчерный
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0666667 0.0666667 0.0666667 1
+			diffuse 0.0666667 0.0666667 0.0666667 1
+			specular 0.117647 0.117647 0.117647 1 70
+		}
+
+	}
+
+}
+
+
+
+material Стеклопрозрачно
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.992157 0.992157 0.992157 1 98
+			scene_blend zero one
+		}
+
+	}
+
+}
+
+
+
+material Металосн
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.478431 0.478431 0.478431 1
+			diffuse 0.478431 0.478431 0.478431 1
+			specular 0.65098 0.615686 0.521569 1 75
+		}
+
+	}
+
+}
+
+
+
+material Стеклочерное
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0470588 0.0470588 0.0470588 1
+			diffuse 0.0470588 0.0470588 0.0470588 1
+			specular 1 1 1 1 100
+		}
+
+	}
+
+}
+
+
+
+material Дисплей1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 1
+		}
+
+	}
+
+}
+
+
+
+material Стеклолого
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0470588 0.0470588 0.0470588 1
+			diffuse 0.0470588 0.0470588 0.0470588 1
+			specular 1 1 1 1 100
+		}
+
+	}
+
+}
+
+
+
+material Стеклокнопка
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0470588 0.0470588 0.0470588 1
+			diffuse 0.0470588 0.0470588 0.0470588 1
+			specular 1 1 1 1 100
+		}
+
+	}
+
+}
+
+
+
+material Метал2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0.866667 0.866667 0.866667 1 95
+		}
+
+	}
+
+}
+
+

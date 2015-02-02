@@ -1,0 +1,44 @@
+
+material pige1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 004-皮革材质.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material jinshu1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 001_窗帘布料.jpg
+			}
+		}
+
+	}
+
+}
+
+

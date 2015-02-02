@@ -1,0 +1,78 @@
+
+material yizi2-1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture INDIROSE.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material yizi2-2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture INDIROSE.JPG
+			}
+		}
+
+	}
+
+}
+
+
+
+material рн╣Ф
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0705882 0.0705882 0.0705882 1
+			diffuse 0.0705882 0.0705882 0.0705882 1
+			specular 0.152667 0.152667 0.152667 1 10
+		}
+
+	}
+
+}
+
+
+
+material Material#53
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 1
+		}
+
+	}
+
+}
+
+

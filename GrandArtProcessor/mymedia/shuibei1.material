@@ -1,0 +1,61 @@
+
+material beizi1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 001_窗帘布料.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material beizi2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 138_窗帘布料.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material beizi3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.301961 0.580392 0.92549 1
+			diffuse 0.301961 0.580392 0.92549 1
+			specular 0 0 0 1 10
+		}
+
+	}
+
+}
+
+

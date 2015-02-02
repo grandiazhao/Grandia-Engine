@@ -1,0 +1,4 @@
+timeLimit:90
+windRatio:2
+ballAccRatio:1
+angleRatio:1

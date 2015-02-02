@@ -1,0 +1,153 @@
+
+material chrome
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.470588 0.470588 0.470588 1
+			specular 0.36 0.36 0.36 1 81
+		}
+
+	}
+
+}
+
+
+
+material Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.784314 0.784314 0.784314 1
+			specular 0 0 0 1 100
+		}
+
+	}
+
+}
+
+
+
+material tire
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.133333 0.133333 0.133333 1
+			specular 0.08 0.08 0.08 1 22.042
+		}
+
+	}
+
+}
+
+
+
+material rubber
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.133333 0.133333 0.133333 1
+			specular 0.08 0.08 0.08 1 22.042
+		}
+
+	}
+
+}
+
+
+
+material plastic
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.211765 0.211765 0.211765 1
+			specular 0.12 0.12 0.12 1 40.7647
+		}
+
+	}
+
+}
+
+
+
+material paint
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.433725 0.0935486 0.0935486 1
+			specular 0.12 0.12 0.12 1 40.7647
+		}
+
+	}
+
+}
+
+
+
+material canvas
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.423529 0.423529 0.423529 1
+			specular 0.0517647 0.0517647 0.0517647 1 30
+		}
+
+	}
+
+}
+
+
+
+material wheelsmall
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.508235 0.508235 0.508235 1
+			specular 0.06 0.06 0.06 1 40.7647
+		}
+
+	}
+
+}
+
+
+
+material tireorange
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.682353 0.564299 0.280969 1
+			specular 0.08 0.08 0.08 1 22.042
+		}
+
+	}
+
+}
+
+

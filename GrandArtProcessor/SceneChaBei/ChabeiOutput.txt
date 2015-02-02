@@ -1,0 +1,18 @@
+Scene ChaBei created
+Scene ChaBei created
+Scene ChaBei created
+3.136:left
+6.082:left
+8.836:left
+10.434:left
+12.286:left
+14.137:left
+18.337:right
+20.627:right
+22.852:right
+23.334:right
+#23.738:right
+24.003:right
+#24.405:right
+#24.7:right
+26.85:right

@@ -1,0 +1,54 @@
+
+material inside
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.587609 0.587609 0.587609 1
+			diffuse 0.587609 0.587609 0.587609 1
+			specular 0.071744 0.071744 0.071744 1 32
+		}
+
+	}
+
+}
+
+
+
+material inside
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.587609 0.587609 0.587609 1
+			diffuse 0.587609 0.587609 0.587609 1
+			specular 0.071744 0.071744 0.071744 1 32
+		}
+
+	}
+
+}
+
+
+
+material outside
+{
+	technique
+	{
+		pass
+		{
+			specular 0.384296 0.194061 0.174387 1 64
+
+			texture_unit
+			{
+				texture cup.jpg
+			}
+		}
+
+	}
+
+}
+
+

@@ -1,0 +1,37 @@
+material Examples/transparent/pink
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture pink50.png
+			}
+		}
+	}
+}
+
+material Examples/transparent/blue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+			diffuse vertexcolour
+
+			texture_unit
+			{
+				texture blue50.png
+			}
+		}
+	}
+}

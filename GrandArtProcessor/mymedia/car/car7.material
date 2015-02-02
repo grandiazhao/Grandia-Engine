@@ -1,0 +1,24 @@
+
+material BORA
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0.234 0.234 0.234 1 23
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture BORA.jpg
+			}
+		}
+
+	}
+
+}
+
+

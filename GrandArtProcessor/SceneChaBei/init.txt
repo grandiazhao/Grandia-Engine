@@ -1,0 +1,14 @@
+totalScore:5
+timeout:10
+character:woman
+moveRatio:0.15,0.2,0.25,0.3,0.35
+1:l
+2:l
+4:r
+character:man
+moveRatio:0.4
+moveCellLeft:0.3,0.55,0.6,0.7,0.85,1
+moveCellRight:0.3,0.55,0.6,0.7,0.85,1
+1:l
+2:r
+4:l

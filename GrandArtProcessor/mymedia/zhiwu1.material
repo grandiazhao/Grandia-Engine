@@ -1,0 +1,21 @@
+
+material penjing11
+{
+	technique
+	{
+		pass
+		{
+			//lighting off
+			cull_hardware none
+			cull_software none
+			scene_blend alpha_blend
+			alpha_rejection greater_equal 128
+			//depth_write off
+			
+			texture_unit
+			{
+				texture 096-1.png
+			}
+		}
+	}
+}

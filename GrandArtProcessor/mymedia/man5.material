@@ -1,0 +1,152 @@
+
+material m6-xie
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.181698 0.0640517 0.172547 1
+			diffuse 0.00784314 0.101961 0.133333 1
+			specular 0.945 0.945 0.945 1 50
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material m6-sy
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.205227 0.142482 0.253592 1
+			diffuse 0.615686 0.427451 0.760784 1
+			specular 0.045 0.045 0.045 1 25
+			emissive 0.16 0.16 0.16 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture t-sy copy.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#2333
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.149018 0.0640517 0.0941167 1
+			diffuse 0.313726 0 0.109804 1
+			specular 0 0 0 1 1
+
+			texture_unit
+			{
+				texture v-2watch.jpg
+				transform 5.96046e-008 1 0 0 -1 5.96046e-008 0 1 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#12
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.185619 0.241828 0.0640517 1
+			diffuse 0.556863 0.72549 0.192157 1
+			specular 0.045 0.045 0.045 1 25
+			cull_hardware none
+			cull_software none
+		}
+
+	}
+
+}
+
+
+
+material m6-ku
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.21307 0.183005 0.0640517 1
+			diffuse 0.639216 0.54902 0.192157 1
+			specular 0.045 0.045 0.045 1 25
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture t-kuo copy.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material m6-face
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0627451 0.156863 0.180392 1
+			diffuse 0.192157 0.47451 0.545098 1
+			specular 0.044902 0.044902 0.044902 1 23
+			emissive 0.31 0.31 0.31 1
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture V-face02.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material m6-arms
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.329408 0.118953 0.163397 1
+			diffuse 0.905882 0.666667 0.54902 1
+			specular 0.189 0.189 0.189 1 23
+		}
+
+	}
+
+}
+
+

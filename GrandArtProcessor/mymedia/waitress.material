@@ -1,0 +1,45 @@
+
+material body_waitress
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.74902 0.74902 0.74902 1
+			diffuse 0.74902 0.74902 0.74902 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture casual11_f_30.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material hair_transparent_waitress
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.74902 0.74902 0.74902 1
+			diffuse 0.74902 0.74902 0.74902 1
+			specular 0 0 0 1 10
+			scene_blend one one_minus_src_alpha
+
+			texture_unit
+			{
+				texture casual11_f_30_hair.tga
+			}
+		}
+
+	}
+
+}
+
+

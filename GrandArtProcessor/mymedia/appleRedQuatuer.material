@@ -1,0 +1,88 @@
+
+material apple141
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture apple_red.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material apple142
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture apple_red_quarter_a.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material apple143
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture Apple_red_quarter_b.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material apple144
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture apple_red_quarter_c.jpg
+			}
+		}
+
+	}
+
+}
+
+

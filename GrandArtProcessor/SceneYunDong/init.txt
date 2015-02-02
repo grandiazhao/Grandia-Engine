@@ -1,0 +1,6 @@
+moveRatio:0.5
+totalScore:10
+timeLimit:50
+timeOut:30
+moveCell:0.3,0.6,0.8,1
+sceneOrder:left_front,left_side,left_up,left_grub,left_flat,right_front,right_side,right_up,right_grub,right_flat,front,side,up,grub,flat

@@ -1,0 +1,72 @@
+
+material AppleRedDelicious01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0 0 1
+			specular 0.05 0.05 0.05 1 84.6147
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture apple_red.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material AppleRedDeliciousBottom01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.501961 0.25098 0.25098 1
+			specular 0.05 0.05 0.05 1 53.8082
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture apple_red_bottom.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material AppleRedDeliciousStem01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.501961 0.25098 0.25098 1
+			specular 0.05 0.05 0.05 1 53.8082
+			cull_hardware none
+			cull_software none
+
+			texture_unit
+			{
+				texture apple_red_stem.jpg
+			}
+		}
+
+	}
+
+}
+
+

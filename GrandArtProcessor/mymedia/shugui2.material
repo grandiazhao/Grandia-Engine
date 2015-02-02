@@ -1,0 +1,66 @@
+
+material shugui12
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 53852897.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material shugui11
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 9999.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material shugui13
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture arch_interiors_4_009_books-cover.jpg
+			}
+		}
+
+	}
+
+}
+
+

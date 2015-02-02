@@ -1,0 +1,44 @@
+
+material booksingle2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture 001_¥∞¡±≤º¡œ.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material booksingle1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture book_(10).jpg
+			}
+		}
+
+	}
+
+}
+
+
