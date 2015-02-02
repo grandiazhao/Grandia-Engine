@@ -1,0 +1,17 @@
+CubeBone	name:rootBone	Parent:None	dimension:20,20,5	materialName:Examples/Solid/Red	position:80,50,50	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger1_1	Parent:rootBone	radius:2.5	height:5	materialName:Examples/Solid/Blue	position:7.5,-7.5,0	max_min:150,0,0.01,-0.01,0,-90quaternion:0,0,-50	
+CapsuleBone	name:finger1_2	Parent:finger1_1	radius:2.5	height:8	materialName:Examples/Solid/White	position:0,5,0	max_min:90,0,0.01,-0.01,0.01,-0.01quaternion:0,0,0	
+CapsuleBone	name:finger1_3	Parent:finger1_2	radius:2.5	height:5	materialName:Examples/Solid/Black	position:0,8,0	max_min:90,0,0.01,-0.01,0.01,-0.01quaternion:0,0,0	
+CapsuleBone	name:finger2_1	Parent:rootBone	radius:2.5	height:8	materialName:None	position:7.5,10,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger2_2	Parent:finger2_1	radius:2.5	height:6	materialName:None	position:0,8,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger2_3	Parent:finger2_2	radius:2.5	height:4	materialName:None	position:0,6,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger3_1	Parent:rootBone	radius:2.5	height:9	materialName:None	position:2.5,10,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger3_2	Parent:finger3_1	radius:2.5	height:7	materialName:None	position:0,9,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger3_3	Parent:finger3_2	radius:2.5	height:5	materialName:None	position:0,7,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger4_1	Parent:rootBone	radius:2.5	height:8	materialName:None	position:-2.5,10,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger4_2	Parent:finger4_1	radius:2.5	height:6.5	materialName:None	position:0,8,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger4_3	Parent:finger4_2	radius:2.5	height:4	materialName:None	position:0,6.5,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger5_1	Parent:rootBone	radius:2.5	height:6	materialName:None	position:-7.5,10,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger5_2	Parent:finger5_1	radius:2.5	height:5	materialName:None	position:0,6,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+CapsuleBone	name:finger5_3	Parent:finger5_2	radius:2.5	height:4	materialName:None	position:0,5,0	max_min:0,0,0,0,0,0quaternion:0,0,0	
+

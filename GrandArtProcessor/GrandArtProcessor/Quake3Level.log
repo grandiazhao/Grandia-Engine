@@ -1,0 +1,94 @@
+Quake3 level statistics
+-----------------------
+Entities     : 716
+Faces        : 138
+Leaf Faces   : 260
+Leaves       : 123
+Lightmaps    : 3
+Elements     : 1716
+Models       : 1
+Nodes        : 121
+Planes       : 128
+Shaders      : 17
+Vertices     : 674
+Vis Clusters : 50
+
+-= Shaders =-
+Shader 0: textures/radiant/caodi
+Shader 1: textures/house/diban3
+Shader 2: textures/house/tianhua1
+Shader 3: textures/house/mianban3
+Shader 4: textures/house/qiangzhuan2
+Shader 5: textures/house/diban4
+Shader 6: textures/common/white01
+Shader 7: textures/qz/q15
+Shader 8: textures/radiant/diban3
+Shader 9: textures/house/qiangzhuan1
+Shader 10: textures/house/mianban2
+Shader 11: textures/house/yaoxian1_1
+Shader 12: textures/house/yaoxian2
+Shader 13: textures/house/yaoxian1
+Shader 14: textures/house/yaoxian3
+Shader 15: textures/house/guahua4
+Shader 16: textures/common/caulk
+
+-= Entities =-
+{
+"classname" "worldspawn"
+}
+{
+"origin" "-640 -512 130"
+"light" "3000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "3000"
+"origin" "-320 -168 130"
+}
+{
+"origin" "0 0 130"
+"light" "3000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "3000"
+"origin" "0 512 130"
+}
+{
+"origin" "-640 128 130"
+"light" "3000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "3000"
+"origin" "-640 -192 130"
+}
+{
+"origin" "-960 -64 130"
+"light" "3000"
+"classname" "light"
+}
+{
+"origin" "-320 664 130"
+"light" "3000"
+"classname" "light"
+}
+{
+"origin" "-320 264 130"
+"light" "3000"
+"classname" "light"
+}
+{
+"classname" "light"
+"light" "3000"
+"origin" "-640 512 130"
+}
+{
+"classname" "light"
+"light" "3000"
+"origin" "0 -512 130"
+}
+

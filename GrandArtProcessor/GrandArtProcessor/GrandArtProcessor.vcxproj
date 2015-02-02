@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release2|Win32">
+      <Configuration>Release2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release2|x64">
+      <Configuration>Release2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{23AC31A5-F4B8-431A-A80A-162FCBB4006A}</ProjectGuid>
+    <RootNamespace>GrandArtProcessor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release2|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release2|Win32'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include\AL;..\include\OIS;..\include\bullet;..\include\boost;..\include\CEGUI;..\include\OGRE;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\debug;..\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OPENAL32.lib;BulletCollision_Debug.lib;BulletDynamics_Debug.lib;LinearMath_Debug.lib;Plugin_BSPSceneManager_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include\AL;..\include\OIS;..\include\bullet;..\include\boost;..\include\CEGUI;..\include\OGRE;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib\debug;..\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OPENAL32.lib;BulletCollision_Debug.lib;BulletDynamics_Debug.lib;LinearMath_Debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\include\AL;..\include\OIS;..\include\bullet;..\include\boost;..\include\CEGUI;..\include\OGRE;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\lib\release;..\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OpenAL32.lib;BulletCollision.lib;BulletDynamics.lib;LinearMath.lib;Plugin_BSPSceneManager.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\include\AL;..\include\OIS;..\include\bullet;..\include\boost;..\include\CEGUI;..\include\OGRE;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\lib;..\lib\release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OpenAL32.lib;BulletCollision.lib;BulletDynamics.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GA3DMath.cpp" />
+    <ClCompile Include="GABlankScene.cpp" />
+    <ClCompile Include="GABspConverter.cpp" />
+    <ClCompile Include="GABspLoader.cpp" />
+    <ClCompile Include="GACharacterAI\GACharacterAIBase.cpp" />
+    <ClCompile Include="GACharacterAI\GACharacterAIManager.cpp" />
+    <ClCompile Include="GACharacterAI\GACharacterAISimpleObject.cpp" />
+    <ClCompile Include="GACharacterAI\GAVehicleAI.cpp" />
+    <ClCompile Include="GACharacterBase.cpp" />
+    <ClCompile Include="GACharacterParamRecorder.cpp" />
+    <ClCompile Include="GACharacterSimpleObject.cpp" />
+    <ClCompile Include="GAClientSimple.cpp" />
+    <ClCompile Include="GADataManager.cpp" />
+    <ClCompile Include="GAEventBase.cpp" />
+    <ClCompile Include="GAExampleEnterUI.cpp" />
+    <ClCompile Include="GAExampleSceneUI.cpp" />
+    <ClCompile Include="GAExampleSettingUI.cpp" />
+    <ClCompile Include="GAFrameListener.cpp" />
+    <ClCompile Include="GALogic.cpp" />
+    <ClCompile Include="GAMainManagerStates.cpp" />
+    <ClCompile Include="GAOgreUIManager.cpp" />
+    <ClCompile Include="GAPAudioManager.cpp" />
+    <ClCompile Include="GAPCameraController.cpp" />
+    <ClCompile Include="GAPCharacterController.cpp" />
+    <ClCompile Include="GAPhysicsBaseObject.cpp" />
+    <ClCompile Include="GAPhysicsBaseTemp.cpp" />
+    <ClCompile Include="GAPKeyboardInput.cpp" />
+    <ClCompile Include="GAPMainManager.cpp" />
+    <ClCompile Include="GAPModel.cpp" />
+    <ClCompile Include="GAPModelManager.cpp" />
+    <ClCompile Include="GAPPhysicsManager.cpp" />
+    <ClCompile Include="GAPWorldManager.cpp" />
+    <ClCompile Include="GARoadCorner.cpp" />
+    <ClCompile Include="GARoadLine.cpp" />
+    <ClCompile Include="GARollPoint.cpp" />
+    <ClCompile Include="GASceneBase.cpp" />
+    <ClCompile Include="GASceneCar1.cpp" />
+    <ClCompile Include="GASceneHand.cpp" />
+    <ClCompile Include="GASceneKangFu0.cpp" />
+    <ClCompile Include="GASceneManager.cpp" />
+    <ClCompile Include="GASceneMgrCar.cpp" />
+    <ClCompile Include="GASceneMgrHand.cpp" />
+    <ClCompile Include="GASceneMgrRecover.cpp" />
+    <ClCompile Include="GASceneWalk.cpp" />
+    <ClCompile Include="GASDKTrays.cpp" />
+    <ClCompile Include="GAServerSimple.cpp" />
+    <ClCompile Include="GASingleton.cpp" />
+    <ClCompile Include="GAUIBase.cpp" />
+    <ClCompile Include="GAVehicle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="openal\aldlist.cpp" />
+    <ClCompile Include="openal\CWaves.cpp" />
+    <ClCompile Include="openal\Framework.cpp" />
+    <ClCompile Include="openal\LoadOAL.cpp" />
+    <ClCompile Include="SceneChabei.cpp" />
+    <ClCompile Include="SceneMiGong.cpp" />
+    <ClCompile Include="SceneMiGong2.cpp" />
+    <ClCompile Include="ScenePingHeng.cpp" />
+    <ClCompile Include="SceneWuPin.cpp" />
+    <ClCompile Include="SceneYunDong.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BulletPhysicsBase.h" />
+    <ClInclude Include="BulletPhysicsVehicle.h" />
+    <ClInclude Include="BulletPhysicsVehicleAI.h" />
+    <ClInclude Include="CarFrameListener.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="GA3DMath.h" />
+    <ClInclude Include="GABlankScene.h" />
+    <ClInclude Include="GABspConverter.h" />
+    <ClInclude Include="GABspLoader.h" />
+    <ClInclude Include="GACharacterAI\GACharacterAISimpleObject.h" />
+    <ClInclude Include="GACharacterAI\GACharacterAIBase.h" />
+    <ClInclude Include="GACharacterAI\GACharacterAIManager.h" />
+    <ClInclude Include="GACharacterAI\GAVehicleAI.h" />
+    <ClInclude Include="GACharacterBase.h" />
+    <ClInclude Include="GACharacterParamRecorder.h" />
+    <ClInclude Include="GACharacterSimpleObject.h" />
+    <ClInclude Include="GAClientSimple.h" />
+    <ClInclude Include="GADataManager.h" />
+    <ClInclude Include="GAExampleEnterUI.h" />
+    <ClInclude Include="GAEventBase.h" />
+    <ClInclude Include="GAExampleSceneUI.h" />
+    <ClInclude Include="GAExampleSettingUI.h" />
+    <ClInclude Include="GAFileIO.h" />
+    <ClInclude Include="GAFrameListener.h" />
+    <ClInclude Include="GALoadingUIBase.h" />
+    <ClInclude Include="GALogic.h" />
+    <ClInclude Include="GAMainManagerStates.h" />
+    <ClInclude Include="GAOgreUIManager.h" />
+    <ClInclude Include="GAPAudioManager.h" />
+    <ClInclude Include="GAPCameraController.h" />
+    <ClInclude Include="GAPCharacterController.h" />
+    <ClInclude Include="GAPFrameListener.h" />
+    <ClInclude Include="GAPhysicsBaseObject.h" />
+    <ClInclude Include="GAPhysicsBaseTemp.h" />
+    <ClInclude Include="GAPKeyboardInput.h" />
+    <ClInclude Include="GAPMainManager.h" />
+    <ClInclude Include="GAPModel.h" />
+    <ClInclude Include="GAPModelManager.h" />
+    <ClInclude Include="GAPPhysicsManager.h" />
+    <ClInclude Include="GAPWorldManager.h" />
+    <ClInclude Include="GAPMisc.h" />
+    <ClInclude Include="GARoadCorner.h" />
+    <ClInclude Include="GARoadLine.h" />
+    <ClInclude Include="GARollPoint.h" />
+    <ClInclude Include="GASceneBase.h" />
+    <ClInclude Include="GASceneCar1.h" />
+    <ClInclude Include="GASceneHand.h" />
+    <ClInclude Include="GASceneKangfu0.h" />
+    <ClInclude Include="GASceneManager.h" />
+    <ClInclude Include="GASceneMgrCar.h" />
+    <ClInclude Include="GASceneMgrHand.h" />
+    <ClInclude Include="GASceneMgrRecover.h" />
+    <ClInclude Include="GASceneWalk.h" />
+    <ClInclude Include="GAServerSimple.h" />
+    <ClInclude Include="GASingleton.h" />
+    <ClInclude Include="GAUIBase.h" />
+    <ClInclude Include="GAVehicle.h" />
+    <ClInclude Include="GrandArtProcessor.h" />
+    <ClInclude Include="MyWriteToFile.h" />
+    <ClInclude Include="SceneChabei.h" />
+    <ClInclude Include="SceneMiGong.h" />
+    <ClInclude Include="ScenePingHeng.h" />
+    <ClInclude Include="SceneWuPin.h" />
+    <ClInclude Include="SceneYunDong.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

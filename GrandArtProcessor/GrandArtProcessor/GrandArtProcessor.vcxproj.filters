@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\OpenAL">
+      <UniqueIdentifier>{ef327780-86cf-4758-aecc-46263fe24a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GAPhysics">
+      <UniqueIdentifier>{43ef45b0-6abb-4f98-a8fe-d84f0648fc10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GAPhysics">
+      <UniqueIdentifier>{660684ad-224a-4988-af16-9574ee3cf17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GAModel">
+      <UniqueIdentifier>{6345d9b6-302b-457c-8b0a-47d648b77723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GAModel">
+      <UniqueIdentifier>{e122b5ec-8e80-483e-97a4-1b659121cbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BulletPhysics">
+      <UniqueIdentifier>{bea1535b-bf27-4c5d-89d2-a07770812261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BulletPhysics">
+      <UniqueIdentifier>{09237a34-8de8-417d-8906-7ed6801fda51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\OtherFrameListeners">
+      <UniqueIdentifier>{8f2d0f97-74bd-4323-bd05-d41cd8787ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CEGUI">
+      <UniqueIdentifier>{9dfe905e-2e8d-4bd2-ad19-36f8eaf64b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CEGUI">
+      <UniqueIdentifier>{064a2c1b-e954-403f-ac1f-b361cc48fd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GACharacterAI">
+      <UniqueIdentifier>{05741ea5-a847-4313-8c5c-5dd390712e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GACharacterAI">
+      <UniqueIdentifier>{322a4358-9100-433a-88bb-fa84de1152cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GACharacter">
+      <UniqueIdentifier>{87266191-1ebf-477f-9121-cdeb49603c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GACharacter">
+      <UniqueIdentifier>{1cf31a6b-e797-411d-9c8e-9270e9704b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GAScenes">
+      <UniqueIdentifier>{a173b090-b0bf-460b-8907-d8dab3a5475f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GAScenes">
+      <UniqueIdentifier>{d1529b90-65c2-4867-8b14-13543e3433ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GAUIs">
+      <UniqueIdentifier>{ed8c7d03-71eb-40b1-b9a2-d8bb16122af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GAUIs">
+      <UniqueIdentifier>{9b0b00cf-d9e0-4047-9c0d-0bd4a0632915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GAUIs\LoadingUIs">
+      <UniqueIdentifier>{17861e91-5bf1-4bef-b3af-584d08410fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GAUIs\SceneUIs">
+      <UniqueIdentifier>{db1b2b21-a0e3-4b46-87e9-35ba0344eaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GAUIs\EnterUIs">
+      <UniqueIdentifier>{8bc4bd56-6e3e-4708-af6b-ab1b37b89296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GAUIs\LoadingUIs">
+      <UniqueIdentifier>{e2d1ac8c-c027-45dc-b8fa-3c2df6f103f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GAUIs\SceneUIs">
+      <UniqueIdentifier>{60ef79e0-eeb5-412d-a774-bacfa0bd2147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GAUIs\EnterUIs">
+      <UniqueIdentifier>{48766c1b-19d6-4a74-8858-77bcca4ade46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OpenAL">
+      <UniqueIdentifier>{2e8896bf-47e6-4bdf-911f-68b7ee6539bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GASceneManagers">
+      <UniqueIdentifier>{854dcc55-78b9-45ba-a2dc-4edb4c604cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GASceneManagers">
+      <UniqueIdentifier>{6daed5ba-237d-4336-9cdf-006b78df0b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GANetwork">
+      <UniqueIdentifier>{0bb9da7d-8c80-4105-b096-a05d2a1093a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GANetwork">
+      <UniqueIdentifier>{2405d829-73d6-43e0-8986-74f7d5f16fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GABase">
+      <UniqueIdentifier>{f0737341-40b0-445d-b0ae-138e15cf95d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GABase">
+      <UniqueIdentifier>{14149db3-42b3-4d19-b475-3bad33e62426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GASceneCar1.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneKangFu0.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GAExampleSettingUI.cpp">
+      <Filter>源文件\GAUIs\SceneUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="GAUIBase.cpp">
+      <Filter>源文件\GAUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="GAExampleEnterUI.cpp">
+      <Filter>源文件\GAUIs\EnterUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="GASDKTrays.cpp">
+      <Filter>源文件\GAUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="GABlankScene.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMiGong.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChabei.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GAExampleSceneUI.cpp">
+      <Filter>源文件\GAUIs\SceneUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneBase.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GACharacterBase.cpp">
+      <Filter>源文件\GACharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="GACharacterSimpleObject.cpp">
+      <Filter>源文件\GACharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="GACharacterAI\GACharacterAIBase.cpp">
+      <Filter>源文件\GACharacterAI</Filter>
+    </ClCompile>
+    <ClCompile Include="GACharacterAI\GACharacterAIManager.cpp">
+      <Filter>源文件\GACharacterAI</Filter>
+    </ClCompile>
+    <ClCompile Include="GACharacterAI\GACharacterAISimpleObject.cpp">
+      <Filter>源文件\GACharacterAI</Filter>
+    </ClCompile>
+    <ClCompile Include="GACharacterAI\GAVehicleAI.cpp">
+      <Filter>源文件\GACharacterAI</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPModel.cpp">
+      <Filter>源文件\GAModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPhysicsBaseObject.cpp">
+      <Filter>源文件\GAPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="GA3DMath.cpp">
+      <Filter>源文件\GAPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="GABspConverter.cpp">
+      <Filter>源文件\GAPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="GABspLoader.cpp">
+      <Filter>源文件\GAPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="GAVehicle.cpp">
+      <Filter>源文件\GACharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="openal\aldlist.cpp">
+      <Filter>源文件\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="openal\CWaves.cpp">
+      <Filter>源文件\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="openal\Framework.cpp">
+      <Filter>源文件\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="openal\LoadOAL.cpp">
+      <Filter>源文件\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneYunDong.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneWuPin.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePingHeng.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneMgrCar.cpp">
+      <Filter>源文件\GASceneManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneMgrRecover.cpp">
+      <Filter>源文件\GASceneManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GAServerSimple.cpp">
+      <Filter>源文件\GANetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="GAClientSimple.cpp">
+      <Filter>源文件\GANetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneMgrHand.cpp">
+      <Filter>源文件\GASceneManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneHand.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMiGong2.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GACharacterParamRecorder.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GADataManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAEventBase.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAFrameListener.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMainManagerStates.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAOgreUIManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPAudioManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPCameraController.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPCharacterController.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPKeyboardInput.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPMainManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPModelManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPPhysicsManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPWorldManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GARoadCorner.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GARoadLine.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GARollPoint.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneManager.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GASingleton.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPhysicsBaseTemp.cpp">
+      <Filter>源文件\GAPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="GASceneWalk.cpp">
+      <Filter>源文件\GAScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GALogic.cpp">
+      <Filter>源文件\GABase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GABspLoader.h">
+      <Filter>头文件\GAPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="GABspConverter.h">
+      <Filter>头文件\GAPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPhysicsBaseObject.h">
+      <Filter>头文件\GAPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="GA3DMath.h">
+      <Filter>头文件\GAPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPModel.h">
+      <Filter>头文件\GAModel</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsBase.h">
+      <Filter>头文件\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsVehicle.h">
+      <Filter>头文件\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsVehicleAI.h">
+      <Filter>头文件\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="CarFrameListener.h">
+      <Filter>头文件\OtherFrameListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="GACharacterAI\GAVehicleAI.h">
+      <Filter>头文件\GACharacterAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GACharacterAI\GACharacterAIBase.h">
+      <Filter>头文件\GACharacterAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GACharacterAI\GACharacterAIManager.h">
+      <Filter>头文件\GACharacterAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GAVehicle.h">
+      <Filter>头文件\GACharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="GACharacterBase.h">
+      <Filter>头文件\GACharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPFrameListener.h">
+      <Filter>头文件\OtherFrameListeners</Filter>
+    </ClInclude>
+    <ClInclude Include="GALoadingUIBase.h">
+      <Filter>头文件\GAUIs\LoadingUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="GAExampleSettingUI.h">
+      <Filter>头文件\GAUIs\SceneUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="GAUIBase.h">
+      <Filter>头文件\GAUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="GAExampleEnterUI.h">
+      <Filter>头文件\GAUIs\EnterUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMiGong.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GABlankScene.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneCar1.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneKangfu0.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChabei.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GACharacterSimpleObject.h">
+      <Filter>头文件\GACharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="GACharacterAI\GACharacterAISimpleObject.h">
+      <Filter>头文件\GACharacterAI</Filter>
+    </ClInclude>
+    <ClInclude Include="GAExampleSceneUI.h">
+      <Filter>头文件\GAUIs\SceneUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneYunDong.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePingHeng.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneWuPin.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneMgrCar.h">
+      <Filter>头文件\GASceneManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneMgrRecover.h">
+      <Filter>头文件\GASceneManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GAServerSimple.h">
+      <Filter>头文件\GANetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="GAClientSimple.h">
+      <Filter>头文件\GANetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneMgrHand.h">
+      <Filter>头文件\GASceneManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneHand.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandArtProcessor.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GACharacterParamRecorder.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GADataManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAEventBase.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAFileIO.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAFrameListener.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMainManagerStates.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAOgreUIManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPAudioManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPCameraController.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPCharacterController.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPKeyboardInput.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPMainManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPMisc.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPModelManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPPhysicsManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPWorldManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GARoadCorner.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GARoadLine.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GARollPoint.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneBase.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneManager.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GASingleton.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWriteToFile.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPhysicsBaseTemp.h">
+      <Filter>头文件\GAPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="GASceneWalk.h">
+      <Filter>头文件\GAScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GALogic.h">
+      <Filter>头文件\GABase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
